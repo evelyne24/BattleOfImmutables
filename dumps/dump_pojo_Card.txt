@@ -1,0 +1,21 @@
+Processing output.dex
+Read in 6 method IDs.
+<root>: 6
+    com: 5
+        deliveroo: 5
+            battleofimmutables: 5
+                model: 5
+                    pojo: 5
+    java: 1
+        lang: 1
+Overall method count: 6
+####################################################################################################
+
+com.deliveroo.battleofimmutables.model.pojo.Card <init>(String, String, int, String)
+com.deliveroo.battleofimmutables.model.pojo.Card getCvc() → int
+com.deliveroo.battleofimmutables.model.pojo.Card getExpiryDate() → String
+com.deliveroo.battleofimmutables.model.pojo.Card getNameOnCard() → String
+com.deliveroo.battleofimmutables.model.pojo.Card getNumber() → String
+java.lang.Object <init>()
+####################################################################################################
+

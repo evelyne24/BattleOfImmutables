@@ -1,0 +1,2783 @@
+Processing 'output.dex'...
+Opened 'output.dex', DEX version '035'
+DEX file header:
+magic               : 'dex\n035\0'
+checksum            : e8e04248
+signature           : fd23...4241
+file_size           : 16376
+header_size         : 112
+link_size           : 0
+link_off            : 0 (0x000000)
+string_ids_size     : 202
+string_ids_off      : 112 (0x000070)
+type_ids_size       : 30
+type_ids_off        : 920 (0x000398)
+proto_ids_size       : 86
+proto_ids_off        : 1040 (0x000410)
+field_ids_size      : 52
+field_ids_off       : 2072 (0x000818)
+method_ids_size     : 155
+method_ids_off      : 2488 (0x0009b8)
+class_defs_size     : 13
+class_defs_off      : 3728 (0x000e90)
+data_size           : 12232
+data_off            : 4144 (0x001030)
+
+Class #0            -
+  Class descriptor  : 'Lcom/deliveroo/battleofimmutables/model/pojo/Card;'
+  Access flags      : 0x0001 (PUBLIC)
+  Superclass        : 'Ljava/lang/Object;'
+  Interfaces        -
+  Static fields     -
+  Instance fields   -
+    #0              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Card;)
+      name          : 'cvc'
+      type          : 'I'
+      access        : 0x0012 (PRIVATE FINAL)
+    #1              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Card;)
+      name          : 'expiryDate'
+      type          : 'Ljava/lang/String;'
+      access        : 0x0012 (PRIVATE FINAL)
+    #2              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Card;)
+      name          : 'nameOnCard'
+      type          : 'Ljava/lang/String;'
+      access        : 0x0012 (PRIVATE FINAL)
+    #3              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Card;)
+      name          : 'number'
+      type          : 'Ljava/lang/String;'
+      access        : 0x0012 (PRIVATE FINAL)
+  Direct methods    -
+    #0              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Card;)
+      name          : '<init>'
+      type          : '(Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;)V'
+      access        : 0x10001 (PUBLIC CONSTRUCTOR)
+      code          -
+      registers     : 5
+      ins           : 5
+      outs          : 1
+      insns size    : 12 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0000 line=14
+        0x0003 line=15
+        0x0005 line=16
+        0x0007 line=17
+        0x0009 line=18
+        0x000b line=19
+      locals        : 
+        0x0000 - 0x000c reg=0 this Lcom/deliveroo/battleofimmutables/model/pojo/Card; 
+        0x0000 - 0x000c reg=1 number Ljava/lang/String; 
+        0x0000 - 0x000c reg=2 expiryDate Ljava/lang/String; 
+        0x0000 - 0x000c reg=3 cvc I 
+        0x0000 - 0x000c reg=4 nameOnCard Ljava/lang/String; 
+  Virtual methods   -
+    #0              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Card;)
+      name          : 'getCvc'
+      type          : '()I'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 2
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0000 line=37
+      locals        : 
+        0x0000 - 0x0003 reg=1 this Lcom/deliveroo/battleofimmutables/model/pojo/Card; 
+    #1              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Card;)
+      name          : 'getExpiryDate'
+      type          : '()Ljava/lang/String;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 2
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0000 line=33
+      locals        : 
+        0x0000 - 0x0003 reg=1 this Lcom/deliveroo/battleofimmutables/model/pojo/Card; 
+    #2              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Card;)
+      name          : 'getNameOnCard'
+      type          : '()Ljava/lang/String;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 2
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0000 line=41
+      locals        : 
+        0x0000 - 0x0003 reg=1 this Lcom/deliveroo/battleofimmutables/model/pojo/Card; 
+    #3              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Card;)
+      name          : 'getNumber'
+      type          : '()Ljava/lang/String;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 2
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0000 line=29
+      locals        : 
+        0x0000 - 0x0003 reg=1 this Lcom/deliveroo/battleofimmutables/model/pojo/Card; 
+  source_file_idx   : 30 (Card.java)
+
+Class #1            -
+  Class descriptor  : 'Lcom/deliveroo/battleofimmutables/model/pojo/Driver$1;'
+  Access flags      : 0x1000 (SYNTHETIC)
+  Superclass        : 'Ljava/lang/Object;'
+  Interfaces        -
+  Static fields     -
+  Instance fields   -
+  Direct methods    -
+  Virtual methods   -
+  source_file_idx   : 34 (Driver.java)
+
+Class #2            -
+  Class descriptor  : 'Lcom/deliveroo/battleofimmutables/model/pojo/Driver$Builder;'
+  Access flags      : 0x0011 (PUBLIC FINAL)
+  Superclass        : 'Ljava/lang/Object;'
+  Interfaces        -
+  Static fields     -
+  Instance fields   -
+    #0              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Driver$Builder;)
+      name          : 'contactNumber'
+      type          : 'Ljava/lang/String;'
+      access        : 0x0002 (PRIVATE)
+    #1              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Driver$Builder;)
+      name          : 'id'
+      type          : 'J'
+      access        : 0x0002 (PRIVATE)
+    #2              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Driver$Builder;)
+      name          : 'name'
+      type          : 'Ljava/lang/String;'
+      access        : 0x0002 (PRIVATE)
+  Direct methods    -
+    #0              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Driver$Builder;)
+      name          : '<init>'
+      type          : '()V'
+      access        : 0x10002 (PRIVATE CONSTRUCTOR)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 1
+      insns size    : 4 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0000 line=76
+        0x0003 line=77
+      locals        : 
+        0x0000 - 0x0004 reg=0 this Lcom/deliveroo/battleofimmutables/model/pojo/Driver$Builder; 
+    #1              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Driver$Builder;)
+      name          : '<init>'
+      type          : '(Lcom/deliveroo/battleofimmutables/model/pojo/Driver$1;)V'
+      access        : 0x11000 (SYNTHETIC CONSTRUCTOR)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 1
+      insns size    : 4 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0000 line=71
+      locals        : 
+        0x0000 - 0x0004 reg=0 this Lcom/deliveroo/battleofimmutables/model/pojo/Driver$Builder; 
+        0x0000 - 0x0004 reg=1 x0 Lcom/deliveroo/battleofimmutables/model/pojo/Driver$1; 
+    #2              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Driver$Builder;)
+      name          : 'access$102'
+      type          : '(Lcom/deliveroo/battleofimmutables/model/pojo/Driver$Builder;J)J'
+      access        : 0x1008 (STATIC SYNTHETIC)
+      code          -
+      registers     : 4
+      ins           : 3
+      outs          : 0
+      insns size    : 3 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0000 line=71
+      locals        : 
+        0x0000 - 0x0003 reg=1 x0 Lcom/deliveroo/battleofimmutables/model/pojo/Driver$Builder; 
+        0x0000 - 0x0003 reg=2 x1 J 
+    #3              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Driver$Builder;)
+      name          : 'access$202'
+      type          : '(Lcom/deliveroo/battleofimmutables/model/pojo/Driver$Builder;Ljava/lang/String;)Ljava/lang/String;'
+      access        : 0x1008 (STATIC SYNTHETIC)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 0
+      insns size    : 3 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0000 line=71
+      locals        : 
+        0x0000 - 0x0003 reg=0 x0 Lcom/deliveroo/battleofimmutables/model/pojo/Driver$Builder; 
+        0x0000 - 0x0003 reg=1 x1 Ljava/lang/String; 
+    #4              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Driver$Builder;)
+      name          : 'access$302'
+      type          : '(Lcom/deliveroo/battleofimmutables/model/pojo/Driver$Builder;Ljava/lang/String;)Ljava/lang/String;'
+      access        : 0x1008 (STATIC SYNTHETIC)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 0
+      insns size    : 3 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0000 line=71
+      locals        : 
+        0x0000 - 0x0003 reg=0 x0 Lcom/deliveroo/battleofimmutables/model/pojo/Driver$Builder; 
+        0x0000 - 0x0003 reg=1 x1 Ljava/lang/String; 
+  Virtual methods   -
+    #0              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Driver$Builder;)
+      name          : 'build'
+      type          : '()Lcom/deliveroo/battleofimmutables/model/pojo/Driver;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 6
+      ins           : 1
+      outs          : 5
+      insns size    : 12 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0000 line=95
+      locals        : 
+        0x0000 - 0x000c reg=5 this Lcom/deliveroo/battleofimmutables/model/pojo/Driver$Builder; 
+    #1              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Driver$Builder;)
+      name          : 'contactNumber'
+      type          : '(Ljava/lang/String;)Lcom/deliveroo/battleofimmutables/model/pojo/Driver$Builder;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 0
+      insns size    : 3 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0000 line=90
+        0x0002 line=91
+      locals        : 
+        0x0000 - 0x0003 reg=0 this Lcom/deliveroo/battleofimmutables/model/pojo/Driver$Builder; 
+        0x0000 - 0x0003 reg=1 val Ljava/lang/String; 
+    #2              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Driver$Builder;)
+      name          : 'id'
+      type          : '(J)Lcom/deliveroo/battleofimmutables/model/pojo/Driver$Builder;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 4
+      ins           : 3
+      outs          : 0
+      insns size    : 3 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0000 line=80
+        0x0002 line=81
+      locals        : 
+        0x0000 - 0x0003 reg=1 this Lcom/deliveroo/battleofimmutables/model/pojo/Driver$Builder; 
+        0x0000 - 0x0003 reg=2 val J 
+    #3              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Driver$Builder;)
+      name          : 'name'
+      type          : '(Ljava/lang/String;)Lcom/deliveroo/battleofimmutables/model/pojo/Driver$Builder;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 0
+      insns size    : 3 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0000 line=85
+        0x0002 line=86
+      locals        : 
+        0x0000 - 0x0003 reg=0 this Lcom/deliveroo/battleofimmutables/model/pojo/Driver$Builder; 
+        0x0000 - 0x0003 reg=1 val Ljava/lang/String; 
+  source_file_idx   : 34 (Driver.java)
+
+Class #3            -
+  Class descriptor  : 'Lcom/deliveroo/battleofimmutables/model/pojo/Driver;'
+  Access flags      : 0x0001 (PUBLIC)
+  Superclass        : 'Ljava/lang/Object;'
+  Interfaces        -
+  Static fields     -
+  Instance fields   -
+    #0              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Driver;)
+      name          : 'contactNumber'
+      type          : 'Ljava/lang/String;'
+      access        : 0x0012 (PRIVATE FINAL)
+    #1              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Driver;)
+      name          : 'id'
+      type          : 'J'
+      access        : 0x0012 (PRIVATE FINAL)
+    #2              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Driver;)
+      name          : 'name'
+      type          : 'Ljava/lang/String;'
+      access        : 0x0012 (PRIVATE FINAL)
+  Direct methods    -
+    #0              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Driver;)
+      name          : '<init>'
+      type          : '(JLjava/lang/String;Ljava/lang/String;)V'
+      access        : 0x10001 (PUBLIC CONSTRUCTOR)
+      code          -
+      registers     : 6
+      ins           : 5
+      outs          : 1
+      insns size    : 10 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0000 line=52
+        0x0003 line=53
+        0x0005 line=54
+        0x0007 line=55
+        0x0009 line=56
+      locals        : 
+        0x0000 - 0x000a reg=1 this Lcom/deliveroo/battleofimmutables/model/pojo/Driver; 
+        0x0000 - 0x000a reg=2 id J 
+        0x0000 - 0x000a reg=4 name Ljava/lang/String; 
+        0x0000 - 0x000a reg=5 contactNumber Ljava/lang/String; 
+    #1              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Driver;)
+      name          : 'builder'
+      type          : '()Lcom/deliveroo/battleofimmutables/model/pojo/Driver$Builder;'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 2
+      ins           : 0
+      outs          : 2
+      insns size    : 7 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0000 line=59
+      locals        : 
+    #2              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Driver;)
+      name          : 'builder'
+      type          : '(Lcom/deliveroo/battleofimmutables/model/pojo/Driver;)Lcom/deliveroo/battleofimmutables/model/pojo/Driver$Builder;'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 5
+      ins           : 1
+      outs          : 3
+      insns size    : 22 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0000 line=63
+        0x0006 line=64
+        0x000b line=65
+        0x0010 line=66
+        0x0015 line=67
+      locals        : 
+        0x0006 - 0x0016 reg=0 builder Lcom/deliveroo/battleofimmutables/model/pojo/Driver$Builder; 
+        0x0000 - 0x0016 reg=4 copy Lcom/deliveroo/battleofimmutables/model/pojo/Driver; 
+  Virtual methods   -
+    #0              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Driver;)
+      name          : 'equals'
+      type          : '(Ljava/lang/Object;)Z'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 10
+      ins           : 2
+      outs          : 2
+      insns size    : 68 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0002 line=25
+        0x0005 line=32
+        0x0006 line=26
+        0x0013 line=28
+        0x0015 line=30
+        0x001d line=31
+        0x002b line=32
+        0x0039 line=31
+        0x003e line=32
+      locals        : 
+        0x0015 - 0x0044 reg=0 driver Lcom/deliveroo/battleofimmutables/model/pojo/Driver; 
+        0x0000 - 0x0044 reg=8 this Lcom/deliveroo/battleofimmutables/model/pojo/Driver; 
+        0x0000 - 0x0044 reg=9 o Ljava/lang/Object; 
+    #1              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Driver;)
+      name          : 'getContactNumber'
+      type          : '()Ljava/lang/String;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 2
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0000 line=13
+      locals        : 
+        0x0000 - 0x0003 reg=1 this Lcom/deliveroo/battleofimmutables/model/pojo/Driver; 
+    #2              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Driver;)
+      name          : 'getId'
+      type          : '()J'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 3
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0000 line=21
+      locals        : 
+        0x0000 - 0x0003 reg=2 this Lcom/deliveroo/battleofimmutables/model/pojo/Driver; 
+    #3              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Driver;)
+      name          : 'getName'
+      type          : '()Ljava/lang/String;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 2
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0000 line=17
+      locals        : 
+        0x0000 - 0x0003 reg=1 this Lcom/deliveroo/battleofimmutables/model/pojo/Driver; 
+    #4              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Driver;)
+      name          : 'hashCode'
+      type          : '()I'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 9
+      ins           : 1
+      outs          : 1
+      insns size    : 41 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0001 line=37
+        0x000a line=38
+        0x0018 line=39
+        0x0026 line=40
+        0x0028 line=38
+      locals        : 
+        0x000a - 0x0029 reg=0 result I 
+        0x0000 - 0x0029 reg=8 this Lcom/deliveroo/battleofimmutables/model/pojo/Driver; 
+    #5              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Driver;)
+      name          : 'toString'
+      type          : '()Ljava/lang/String;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 6
+      ins           : 1
+      outs          : 3
+      insns size    : 60 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0002 line=44
+        0x0009 line=45
+        0x0014 line=46
+        0x0023 line=47
+        0x0032 line=48
+        0x0037 line=49
+      locals        : 
+        0x0009 - 0x003c reg=0 sb Ljava/lang/StringBuilder; 
+        0x0000 - 0x003c reg=5 this Lcom/deliveroo/battleofimmutables/model/pojo/Driver; 
+  source_file_idx   : 34 (Driver.java)
+
+Class #4            -
+  Class descriptor  : 'Lcom/deliveroo/battleofimmutables/model/pojo/Order$1;'
+  Access flags      : 0x1000 (SYNTHETIC)
+  Superclass        : 'Ljava/lang/Object;'
+  Interfaces        -
+  Static fields     -
+  Instance fields   -
+  Direct methods    -
+  Virtual methods   -
+  source_file_idx   : 77 (Order.java)
+
+Class #5            -
+  Class descriptor  : 'Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder;'
+  Access flags      : 0x0011 (PUBLIC FINAL)
+  Superclass        : 'Ljava/lang/Object;'
+  Interfaces        -
+  Static fields     -
+  Instance fields   -
+    #0              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder;)
+      name          : 'card'
+      type          : 'Lcom/deliveroo/battleofimmutables/model/pojo/Card;'
+      access        : 0x0002 (PRIVATE)
+    #1              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder;)
+      name          : 'createdAt'
+      type          : 'J'
+      access        : 0x0002 (PRIVATE)
+    #2              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder;)
+      name          : 'currency'
+      type          : 'Ljava/lang/String;'
+      access        : 0x0002 (PRIVATE)
+    #3              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder;)
+      name          : 'customerName'
+      type          : 'Ljava/lang/String;'
+      access        : 0x0002 (PRIVATE)
+    #4              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder;)
+      name          : 'deliveryAt'
+      type          : 'Ljava/lang/Long;'
+      access        : 0x0002 (PRIVATE)
+    #5              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder;)
+      name          : 'driver'
+      type          : 'Lcom/deliveroo/battleofimmutables/model/pojo/Driver;'
+      access        : 0x0002 (PRIVATE)
+    #6              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder;)
+      name          : 'id'
+      type          : 'J'
+      access        : 0x0002 (PRIVATE)
+    #7              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder;)
+      name          : 'items'
+      type          : 'Ljava/util/List;'
+      access        : 0x0002 (PRIVATE)
+    #8              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder;)
+      name          : 'restaurant'
+      type          : 'Lcom/deliveroo/battleofimmutables/model/pojo/Restaurant;'
+      access        : 0x0002 (PRIVATE)
+    #9              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder;)
+      name          : 'rooCharge'
+      type          : 'D'
+      access        : 0x0002 (PRIVATE)
+    #10              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder;)
+      name          : 'status'
+      type          : 'Ljava/lang/String;'
+      access        : 0x0002 (PRIVATE)
+    #11              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder;)
+      name          : 'submittedAt'
+      type          : 'Ljava/lang/Long;'
+      access        : 0x0002 (PRIVATE)
+    #12              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder;)
+      name          : 'totalCredit'
+      type          : 'D'
+      access        : 0x0002 (PRIVATE)
+    #13              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder;)
+      name          : 'totalPrice'
+      type          : 'D'
+      access        : 0x0002 (PRIVATE)
+    #14              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder;)
+      name          : 'totalTip'
+      type          : 'D'
+      access        : 0x0002 (PRIVATE)
+  Direct methods    -
+    #0              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder;)
+      name          : '<init>'
+      type          : '()V'
+      access        : 0x10002 (PRIVATE CONSTRUCTOR)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 1
+      insns size    : 4 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0000 line=233
+        0x0003 line=234
+      locals        : 
+        0x0000 - 0x0004 reg=0 this Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder; 
+    #1              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder;)
+      name          : '<init>'
+      type          : '(Lcom/deliveroo/battleofimmutables/model/pojo/Order$1;)V'
+      access        : 0x11000 (SYNTHETIC CONSTRUCTOR)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 1
+      insns size    : 4 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0000 line=216
+      locals        : 
+        0x0000 - 0x0004 reg=0 this Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder; 
+        0x0000 - 0x0004 reg=1 x0 Lcom/deliveroo/battleofimmutables/model/pojo/Order$1; 
+    #2              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder;)
+      name          : 'access$000'
+      type          : '(Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder;)J'
+      access        : 0x1008 (STATIC SYNTHETIC)
+      code          -
+      registers     : 3
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0000 line=216
+      locals        : 
+        0x0000 - 0x0003 reg=2 x0 Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder; 
+    #3              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder;)
+      name          : 'access$002'
+      type          : '(Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder;J)J'
+      access        : 0x1008 (STATIC SYNTHETIC)
+      code          -
+      registers     : 4
+      ins           : 3
+      outs          : 0
+      insns size    : 3 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0000 line=216
+      locals        : 
+        0x0000 - 0x0003 reg=1 x0 Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder; 
+        0x0000 - 0x0003 reg=2 x1 J 
+    #4              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder;)
+      name          : 'access$100'
+      type          : '(Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder;)Ljava/lang/String;'
+      access        : 0x1008 (STATIC SYNTHETIC)
+      code          -
+      registers     : 2
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0000 line=216
+      locals        : 
+        0x0000 - 0x0003 reg=1 x0 Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder; 
+    #5              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder;)
+      name          : 'access$1000'
+      type          : '(Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder;)Ljava/lang/Long;'
+      access        : 0x1008 (STATIC SYNTHETIC)
+      code          -
+      registers     : 2
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0000 line=216
+      locals        : 
+        0x0000 - 0x0003 reg=1 x0 Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder; 
+    #6              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder;)
+      name          : 'access$1002'
+      type          : '(Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder;Ljava/lang/Long;)Ljava/lang/Long;'
+      access        : 0x1008 (STATIC SYNTHETIC)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 0
+      insns size    : 3 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0000 line=216
+      locals        : 
+        0x0000 - 0x0003 reg=0 x0 Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder; 
+        0x0000 - 0x0003 reg=1 x1 Ljava/lang/Long; 
+    #7              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder;)
+      name          : 'access$102'
+      type          : '(Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder;Ljava/lang/String;)Ljava/lang/String;'
+      access        : 0x1008 (STATIC SYNTHETIC)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 0
+      insns size    : 3 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0000 line=216
+      locals        : 
+        0x0000 - 0x0003 reg=0 x0 Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder; 
+        0x0000 - 0x0003 reg=1 x1 Ljava/lang/String; 
+    #8              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder;)
+      name          : 'access$1100'
+      type          : '(Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder;)Lcom/deliveroo/battleofimmutables/model/pojo/Card;'
+      access        : 0x1008 (STATIC SYNTHETIC)
+      code          -
+      registers     : 2
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0000 line=216
+      locals        : 
+        0x0000 - 0x0003 reg=1 x0 Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder; 
+    #9              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder;)
+      name          : 'access$1102'
+      type          : '(Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder;Lcom/deliveroo/battleofimmutables/model/pojo/Card;)Lcom/deliveroo/battleofimmutables/model/pojo/Card;'
+      access        : 0x1008 (STATIC SYNTHETIC)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 0
+      insns size    : 3 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0000 line=216
+      locals        : 
+        0x0000 - 0x0003 reg=0 x0 Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder; 
+        0x0000 - 0x0003 reg=1 x1 Lcom/deliveroo/battleofimmutables/model/pojo/Card; 
+    #10              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder;)
+      name          : 'access$1200'
+      type          : '(Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder;)Lcom/deliveroo/battleofimmutables/model/pojo/Restaurant;'
+      access        : 0x1008 (STATIC SYNTHETIC)
+      code          -
+      registers     : 2
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0000 line=216
+      locals        : 
+        0x0000 - 0x0003 reg=1 x0 Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder; 
+    #11              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder;)
+      name          : 'access$1202'
+      type          : '(Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder;Lcom/deliveroo/battleofimmutables/model/pojo/Restaurant;)Lcom/deliveroo/battleofimmutables/model/pojo/Restaurant;'
+      access        : 0x1008 (STATIC SYNTHETIC)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 0
+      insns size    : 3 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0000 line=216
+      locals        : 
+        0x0000 - 0x0003 reg=0 x0 Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder; 
+        0x0000 - 0x0003 reg=1 x1 Lcom/deliveroo/battleofimmutables/model/pojo/Restaurant; 
+    #12              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder;)
+      name          : 'access$1300'
+      type          : '(Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder;)Lcom/deliveroo/battleofimmutables/model/pojo/Driver;'
+      access        : 0x1008 (STATIC SYNTHETIC)
+      code          -
+      registers     : 2
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0000 line=216
+      locals        : 
+        0x0000 - 0x0003 reg=1 x0 Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder; 
+    #13              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder;)
+      name          : 'access$1302'
+      type          : '(Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder;Lcom/deliveroo/battleofimmutables/model/pojo/Driver;)Lcom/deliveroo/battleofimmutables/model/pojo/Driver;'
+      access        : 0x1008 (STATIC SYNTHETIC)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 0
+      insns size    : 3 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0000 line=216
+      locals        : 
+        0x0000 - 0x0003 reg=0 x0 Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder; 
+        0x0000 - 0x0003 reg=1 x1 Lcom/deliveroo/battleofimmutables/model/pojo/Driver; 
+    #14              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder;)
+      name          : 'access$1400'
+      type          : '(Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder;)Ljava/util/List;'
+      access        : 0x1008 (STATIC SYNTHETIC)
+      code          -
+      registers     : 2
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0000 line=216
+      locals        : 
+        0x0000 - 0x0003 reg=1 x0 Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder; 
+    #15              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder;)
+      name          : 'access$1402'
+      type          : '(Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder;Ljava/util/List;)Ljava/util/List;'
+      access        : 0x1008 (STATIC SYNTHETIC)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 0
+      insns size    : 3 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0000 line=216
+      locals        : 
+        0x0000 - 0x0003 reg=0 x0 Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder; 
+        0x0000 - 0x0003 reg=1 x1 Ljava/util/List; 
+    #16              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder;)
+      name          : 'access$200'
+      type          : '(Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder;)D'
+      access        : 0x1008 (STATIC SYNTHETIC)
+      code          -
+      registers     : 3
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0000 line=216
+      locals        : 
+        0x0000 - 0x0003 reg=2 x0 Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder; 
+    #17              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder;)
+      name          : 'access$202'
+      type          : '(Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder;D)D'
+      access        : 0x1008 (STATIC SYNTHETIC)
+      code          -
+      registers     : 4
+      ins           : 3
+      outs          : 0
+      insns size    : 3 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0000 line=216
+      locals        : 
+        0x0000 - 0x0003 reg=1 x0 Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder; 
+        0x0000 - 0x0003 reg=2 x1 D 
+    #18              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder;)
+      name          : 'access$300'
+      type          : '(Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder;)Ljava/lang/String;'
+      access        : 0x1008 (STATIC SYNTHETIC)
+      code          -
+      registers     : 2
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0000 line=216
+      locals        : 
+        0x0000 - 0x0003 reg=1 x0 Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder; 
+    #19              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder;)
+      name          : 'access$302'
+      type          : '(Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder;Ljava/lang/String;)Ljava/lang/String;'
+      access        : 0x1008 (STATIC SYNTHETIC)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 0
+      insns size    : 3 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0000 line=216
+      locals        : 
+        0x0000 - 0x0003 reg=0 x0 Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder; 
+        0x0000 - 0x0003 reg=1 x1 Ljava/lang/String; 
+    #20              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder;)
+      name          : 'access$400'
+      type          : '(Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder;)D'
+      access        : 0x1008 (STATIC SYNTHETIC)
+      code          -
+      registers     : 3
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0000 line=216
+      locals        : 
+        0x0000 - 0x0003 reg=2 x0 Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder; 
+    #21              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder;)
+      name          : 'access$402'
+      type          : '(Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder;D)D'
+      access        : 0x1008 (STATIC SYNTHETIC)
+      code          -
+      registers     : 4
+      ins           : 3
+      outs          : 0
+      insns size    : 3 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0000 line=216
+      locals        : 
+        0x0000 - 0x0003 reg=1 x0 Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder; 
+        0x0000 - 0x0003 reg=2 x1 D 
+    #22              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder;)
+      name          : 'access$500'
+      type          : '(Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder;)D'
+      access        : 0x1008 (STATIC SYNTHETIC)
+      code          -
+      registers     : 3
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0000 line=216
+      locals        : 
+        0x0000 - 0x0003 reg=2 x0 Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder; 
+    #23              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder;)
+      name          : 'access$502'
+      type          : '(Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder;D)D'
+      access        : 0x1008 (STATIC SYNTHETIC)
+      code          -
+      registers     : 4
+      ins           : 3
+      outs          : 0
+      insns size    : 3 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0000 line=216
+      locals        : 
+        0x0000 - 0x0003 reg=1 x0 Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder; 
+        0x0000 - 0x0003 reg=2 x1 D 
+    #24              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder;)
+      name          : 'access$600'
+      type          : '(Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder;)D'
+      access        : 0x1008 (STATIC SYNTHETIC)
+      code          -
+      registers     : 3
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0000 line=216
+      locals        : 
+        0x0000 - 0x0003 reg=2 x0 Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder; 
+    #25              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder;)
+      name          : 'access$602'
+      type          : '(Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder;D)D'
+      access        : 0x1008 (STATIC SYNTHETIC)
+      code          -
+      registers     : 4
+      ins           : 3
+      outs          : 0
+      insns size    : 3 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0000 line=216
+      locals        : 
+        0x0000 - 0x0003 reg=1 x0 Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder; 
+        0x0000 - 0x0003 reg=2 x1 D 
+    #26              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder;)
+      name          : 'access$700'
+      type          : '(Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder;)Ljava/lang/String;'
+      access        : 0x1008 (STATIC SYNTHETIC)
+      code          -
+      registers     : 2
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0000 line=216
+      locals        : 
+        0x0000 - 0x0003 reg=1 x0 Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder; 
+    #27              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder;)
+      name          : 'access$702'
+      type          : '(Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder;Ljava/lang/String;)Ljava/lang/String;'
+      access        : 0x1008 (STATIC SYNTHETIC)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 0
+      insns size    : 3 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0000 line=216
+      locals        : 
+        0x0000 - 0x0003 reg=0 x0 Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder; 
+        0x0000 - 0x0003 reg=1 x1 Ljava/lang/String; 
+    #28              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder;)
+      name          : 'access$800'
+      type          : '(Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder;)J'
+      access        : 0x1008 (STATIC SYNTHETIC)
+      code          -
+      registers     : 3
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0000 line=216
+      locals        : 
+        0x0000 - 0x0003 reg=2 x0 Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder; 
+    #29              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder;)
+      name          : 'access$802'
+      type          : '(Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder;J)J'
+      access        : 0x1008 (STATIC SYNTHETIC)
+      code          -
+      registers     : 4
+      ins           : 3
+      outs          : 0
+      insns size    : 3 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0000 line=216
+      locals        : 
+        0x0000 - 0x0003 reg=1 x0 Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder; 
+        0x0000 - 0x0003 reg=2 x1 J 
+    #30              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder;)
+      name          : 'access$900'
+      type          : '(Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder;)Ljava/lang/Long;'
+      access        : 0x1008 (STATIC SYNTHETIC)
+      code          -
+      registers     : 2
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0000 line=216
+      locals        : 
+        0x0000 - 0x0003 reg=1 x0 Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder; 
+    #31              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder;)
+      name          : 'access$902'
+      type          : '(Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder;Ljava/lang/Long;)Ljava/lang/Long;'
+      access        : 0x1008 (STATIC SYNTHETIC)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 0
+      insns size    : 3 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0000 line=216
+      locals        : 
+        0x0000 - 0x0003 reg=0 x0 Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder; 
+        0x0000 - 0x0003 reg=1 x1 Ljava/lang/Long; 
+  Virtual methods   -
+    #0              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder;)
+      name          : 'build'
+      type          : '()Lcom/deliveroo/battleofimmutables/model/pojo/Order;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 3
+      ins           : 1
+      outs          : 3
+      insns size    : 7 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0000 line=312
+      locals        : 
+        0x0000 - 0x0007 reg=2 this Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder; 
+    #1              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder;)
+      name          : 'card'
+      type          : '(Lcom/deliveroo/battleofimmutables/model/pojo/Card;)Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 0
+      insns size    : 3 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0000 line=292
+        0x0002 line=293
+      locals        : 
+        0x0000 - 0x0003 reg=0 this Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder; 
+        0x0000 - 0x0003 reg=1 val Lcom/deliveroo/battleofimmutables/model/pojo/Card; 
+    #2              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder;)
+      name          : 'createdAt'
+      type          : '(J)Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 4
+      ins           : 3
+      outs          : 0
+      insns size    : 3 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0000 line=277
+        0x0002 line=278
+      locals        : 
+        0x0000 - 0x0003 reg=1 this Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder; 
+        0x0000 - 0x0003 reg=2 val J 
+    #3              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder;)
+      name          : 'currency'
+      type          : '(Ljava/lang/String;)Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 0
+      insns size    : 3 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0000 line=272
+        0x0002 line=273
+      locals        : 
+        0x0000 - 0x0003 reg=0 this Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder; 
+        0x0000 - 0x0003 reg=1 val Ljava/lang/String; 
+    #4              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder;)
+      name          : 'customerName'
+      type          : '(Ljava/lang/String;)Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 0
+      insns size    : 3 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0000 line=252
+        0x0002 line=253
+      locals        : 
+        0x0000 - 0x0003 reg=0 this Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder; 
+        0x0000 - 0x0003 reg=1 val Ljava/lang/String; 
+    #5              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder;)
+      name          : 'deliveryAt'
+      type          : '(Ljava/lang/Long;)Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 0
+      insns size    : 3 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0000 line=287
+        0x0002 line=288
+      locals        : 
+        0x0000 - 0x0003 reg=0 this Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder; 
+        0x0000 - 0x0003 reg=1 val Ljava/lang/Long; 
+    #6              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder;)
+      name          : 'driver'
+      type          : '(Lcom/deliveroo/battleofimmutables/model/pojo/Driver;)Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 0
+      insns size    : 3 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0000 line=302
+        0x0002 line=303
+      locals        : 
+        0x0000 - 0x0003 reg=0 this Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder; 
+        0x0000 - 0x0003 reg=1 val Lcom/deliveroo/battleofimmutables/model/pojo/Driver; 
+    #7              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder;)
+      name          : 'id'
+      type          : '(J)Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 4
+      ins           : 3
+      outs          : 0
+      insns size    : 3 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0000 line=237
+        0x0002 line=238
+      locals        : 
+        0x0000 - 0x0003 reg=1 this Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder; 
+        0x0000 - 0x0003 reg=2 val J 
+    #8              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder;)
+      name          : 'items'
+      type          : '(Ljava/util/List;)Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 0
+      insns size    : 3 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0000 line=307
+        0x0002 line=308
+      locals        : 
+        0x0000 - 0x0003 reg=0 this Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder; 
+        0x0000 - 0x0003 reg=1 val Ljava/util/List; Ljava/util/List<Lcom/deliveroo/battleofimmutables/model/pojo/OrderItem;>;
+    #9              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder;)
+      name          : 'restaurant'
+      type          : '(Lcom/deliveroo/battleofimmutables/model/pojo/Restaurant;)Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 0
+      insns size    : 3 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0000 line=297
+        0x0002 line=298
+      locals        : 
+        0x0000 - 0x0003 reg=0 this Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder; 
+        0x0000 - 0x0003 reg=1 val Lcom/deliveroo/battleofimmutables/model/pojo/Restaurant; 
+    #10              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder;)
+      name          : 'rooCharge'
+      type          : '(D)Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 4
+      ins           : 3
+      outs          : 0
+      insns size    : 3 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0000 line=267
+        0x0002 line=268
+      locals        : 
+        0x0000 - 0x0003 reg=1 this Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder; 
+        0x0000 - 0x0003 reg=2 val D 
+    #11              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder;)
+      name          : 'status'
+      type          : '(Ljava/lang/String;)Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 0
+      insns size    : 3 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0000 line=242
+        0x0002 line=243
+      locals        : 
+        0x0000 - 0x0003 reg=0 this Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder; 
+        0x0000 - 0x0003 reg=1 val Ljava/lang/String; 
+    #12              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder;)
+      name          : 'submittedAt'
+      type          : '(Ljava/lang/Long;)Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 0
+      insns size    : 3 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0000 line=282
+        0x0002 line=283
+      locals        : 
+        0x0000 - 0x0003 reg=0 this Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder; 
+        0x0000 - 0x0003 reg=1 val Ljava/lang/Long; 
+    #13              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder;)
+      name          : 'totalCredit'
+      type          : '(D)Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 4
+      ins           : 3
+      outs          : 0
+      insns size    : 3 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0000 line=262
+        0x0002 line=263
+      locals        : 
+        0x0000 - 0x0003 reg=1 this Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder; 
+        0x0000 - 0x0003 reg=2 val D 
+    #14              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder;)
+      name          : 'totalPrice'
+      type          : '(D)Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 4
+      ins           : 3
+      outs          : 0
+      insns size    : 3 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0000 line=247
+        0x0002 line=248
+      locals        : 
+        0x0000 - 0x0003 reg=1 this Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder; 
+        0x0000 - 0x0003 reg=2 val D 
+    #15              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder;)
+      name          : 'totalTip'
+      type          : '(D)Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 4
+      ins           : 3
+      outs          : 0
+      insns size    : 3 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0000 line=257
+        0x0002 line=258
+      locals        : 
+        0x0000 - 0x0003 reg=1 this Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder; 
+        0x0000 - 0x0003 reg=2 val D 
+  source_file_idx   : 77 (Order.java)
+
+Class #6            -
+  Class descriptor  : 'Lcom/deliveroo/battleofimmutables/model/pojo/Order;'
+  Access flags      : 0x0001 (PUBLIC)
+  Superclass        : 'Ljava/lang/Object;'
+  Interfaces        -
+  Static fields     -
+  Instance fields   -
+    #0              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Order;)
+      name          : 'card'
+      type          : 'Lcom/deliveroo/battleofimmutables/model/pojo/Card;'
+      access        : 0x0012 (PRIVATE FINAL)
+    #1              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Order;)
+      name          : 'createdAt'
+      type          : 'J'
+      access        : 0x0012 (PRIVATE FINAL)
+    #2              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Order;)
+      name          : 'currency'
+      type          : 'Ljava/lang/String;'
+      access        : 0x0012 (PRIVATE FINAL)
+    #3              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Order;)
+      name          : 'customerName'
+      type          : 'Ljava/lang/String;'
+      access        : 0x0012 (PRIVATE FINAL)
+    #4              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Order;)
+      name          : 'deliveryAt'
+      type          : 'Ljava/lang/Long;'
+      access        : 0x0012 (PRIVATE FINAL)
+    #5              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Order;)
+      name          : 'driver'
+      type          : 'Lcom/deliveroo/battleofimmutables/model/pojo/Driver;'
+      access        : 0x0012 (PRIVATE FINAL)
+    #6              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Order;)
+      name          : 'id'
+      type          : 'J'
+      access        : 0x0012 (PRIVATE FINAL)
+    #7              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Order;)
+      name          : 'items'
+      type          : 'Ljava/util/List;'
+      access        : 0x0012 (PRIVATE FINAL)
+    #8              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Order;)
+      name          : 'restaurant'
+      type          : 'Lcom/deliveroo/battleofimmutables/model/pojo/Restaurant;'
+      access        : 0x0012 (PRIVATE FINAL)
+    #9              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Order;)
+      name          : 'rooCharge'
+      type          : 'D'
+      access        : 0x0012 (PRIVATE FINAL)
+    #10              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Order;)
+      name          : 'status'
+      type          : 'Ljava/lang/String;'
+      access        : 0x0012 (PRIVATE FINAL)
+    #11              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Order;)
+      name          : 'submittedAt'
+      type          : 'Ljava/lang/Long;'
+      access        : 0x0012 (PRIVATE FINAL)
+    #12              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Order;)
+      name          : 'totalCredit'
+      type          : 'D'
+      access        : 0x0012 (PRIVATE FINAL)
+    #13              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Order;)
+      name          : 'totalPrice'
+      type          : 'D'
+      access        : 0x0012 (PRIVATE FINAL)
+    #14              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Order;)
+      name          : 'totalTip'
+      type          : 'D'
+      access        : 0x0012 (PRIVATE FINAL)
+  Direct methods    -
+    #0              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Order;)
+      name          : '<init>'
+      type          : '(Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder;)V'
+      access        : 0x10002 (PRIVATE CONSTRUCTOR)
+      code          -
+      registers     : 4
+      ins           : 2
+      outs          : 1
+      insns size    : 94 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0000 line=27
+        0x0003 line=28
+        0x0009 line=29
+        0x000f line=30
+        0x0015 line=31
+        0x001b line=32
+        0x0021 line=33
+        0x0027 line=34
+        0x002d line=35
+        0x0033 line=36
+        0x0039 line=37
+        0x003f line=38
+        0x0045 line=39
+        0x004b line=40
+        0x0051 line=41
+        0x0057 line=42
+        0x005d line=43
+      locals        : 
+        0x0000 - 0x005e reg=2 this Lcom/deliveroo/battleofimmutables/model/pojo/Order; 
+        0x0000 - 0x005e reg=3 builder Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder; 
+    #1              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Order;)
+      name          : '<init>'
+      type          : '(Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder;Lcom/deliveroo/battleofimmutables/model/pojo/Order$1;)V'
+      access        : 0x11000 (SYNTHETIC CONSTRUCTOR)
+      code          -
+      registers     : 3
+      ins           : 3
+      outs          : 2
+      insns size    : 4 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0000 line=9
+      locals        : 
+        0x0000 - 0x0004 reg=0 this Lcom/deliveroo/battleofimmutables/model/pojo/Order; 
+        0x0000 - 0x0004 reg=1 x0 Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder; 
+        0x0000 - 0x0004 reg=2 x1 Lcom/deliveroo/battleofimmutables/model/pojo/Order$1; 
+    #2              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Order;)
+      name          : 'builder'
+      type          : '()Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder;'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 2
+      ins           : 0
+      outs          : 2
+      insns size    : 7 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0000 line=192
+      locals        : 
+    #3              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Order;)
+      name          : 'builder'
+      type          : '(Lcom/deliveroo/battleofimmutables/model/pojo/Order;)Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder;'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 5
+      ins           : 1
+      outs          : 3
+      insns size    : 82 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0000 line=196
+        0x0006 line=197
+        0x000b line=198
+        0x0010 line=199
+        0x0015 line=200
+        0x001a line=201
+        0x001f line=202
+        0x0024 line=203
+        0x0029 line=204
+        0x002e line=205
+        0x0033 line=206
+        0x0038 line=207
+        0x003d line=208
+        0x0042 line=209
+        0x0047 line=210
+        0x004c line=211
+        0x0051 line=212
+      locals        : 
+        0x0006 - 0x0052 reg=0 builder Lcom/deliveroo/battleofimmutables/model/pojo/Order$Builder; 
+        0x0000 - 0x0052 reg=4 copy Lcom/deliveroo/battleofimmutables/model/pojo/Order; 
+  Virtual methods   -
+    #0              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Order;)
+      name          : 'equals'
+      type          : '(Ljava/lang/Object;)Z'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 14
+      ins           : 2
+      outs          : 4
+      insns size    : 258 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0002 line=106
+        0x0005 line=135
+        0x0006 line=107
+        0x0013 line=109
+        0x0015 line=111
+        0x001d line=112
+        0x0027 line=113
+        0x0031 line=114
+        0x003b line=115
+        0x0045 line=116
+        0x004d line=117
+        0x005b line=118
+        0x0069 line=119
+        0x0077 line=121
+        0x007b line=122
+        0x007f line=123
+        0x0083 line=128
+        0x0087 line=129
+        0x008b line=130
+        0x008f line=132
+        0x009d line=133
+        0x00ab line=134
+        0x00b9 line=135
+        0x00c8 line=117
+        0x00ce line=118
+        0x00d4 line=119
+        0x00da line=123
+        0x00e2 line=130
+        0x00ea line=132
+        0x00f0 line=133
+        0x00f6 line=134
+        0x00fc line=135
+      locals        : 
+        0x008b - 0x00c8 reg=1 other$deliveryAt Ljava/lang/Long; 
+        0x007f - 0x00c8 reg=2 other$submittedAt Ljava/lang/Long; 
+        0x0087 - 0x00c8 reg=3 this$deliveryAt Ljava/lang/Long; 
+        0x007b - 0x00c8 reg=4 this$submittedAt Ljava/lang/Long; 
+        0x0015 - 0x0102 reg=0 order Lcom/deliveroo/battleofimmutables/model/pojo/Order; 
+        0x00e2 - 0x0102 reg=1 other$deliveryAt Ljava/lang/Long; 
+        0x00da - 0x0102 reg=2 other$submittedAt Ljava/lang/Long; 
+        0x00e2 - 0x0102 reg=3 this$deliveryAt Ljava/lang/Long; 
+        0x00da - 0x0102 reg=4 this$submittedAt Ljava/lang/Long; 
+        0x0000 - 0x0102 reg=12 this Lcom/deliveroo/battleofimmutables/model/pojo/Order; 
+        0x0000 - 0x0102 reg=13 o Ljava/lang/Object; 
+    #1              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Order;)
+      name          : 'getCard'
+      type          : '()Lcom/deliveroo/battleofimmutables/model/pojo/Card;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 2
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0000 line=90
+      locals        : 
+        0x0000 - 0x0003 reg=1 this Lcom/deliveroo/battleofimmutables/model/pojo/Order; 
+    #2              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Order;)
+      name          : 'getCreatedAt'
+      type          : '()J'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 3
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0000 line=78
+      locals        : 
+        0x0000 - 0x0003 reg=2 this Lcom/deliveroo/battleofimmutables/model/pojo/Order; 
+    #3              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Order;)
+      name          : 'getCurrency'
+      type          : '()Ljava/lang/String;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 2
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0000 line=74
+      locals        : 
+        0x0000 - 0x0003 reg=1 this Lcom/deliveroo/battleofimmutables/model/pojo/Order; 
+    #4              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Order;)
+      name          : 'getCustomerName'
+      type          : '()Ljava/lang/String;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 2
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0000 line=58
+      locals        : 
+        0x0000 - 0x0003 reg=1 this Lcom/deliveroo/battleofimmutables/model/pojo/Order; 
+    #5              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Order;)
+      name          : 'getDeliveryAt'
+      type          : '()Ljava/lang/Long;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 2
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0000 line=86
+      locals        : 
+        0x0000 - 0x0003 reg=1 this Lcom/deliveroo/battleofimmutables/model/pojo/Order; 
+    #6              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Order;)
+      name          : 'getDriver'
+      type          : '()Lcom/deliveroo/battleofimmutables/model/pojo/Driver;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 2
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0000 line=98
+      locals        : 
+        0x0000 - 0x0003 reg=1 this Lcom/deliveroo/battleofimmutables/model/pojo/Order; 
+    #7              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Order;)
+      name          : 'getId'
+      type          : '()J'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 3
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0000 line=46
+      locals        : 
+        0x0000 - 0x0003 reg=2 this Lcom/deliveroo/battleofimmutables/model/pojo/Order; 
+    #8              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Order;)
+      name          : 'getItems'
+      type          : '()Ljava/util/List;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 2
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0000 line=102
+      locals        : 
+        0x0000 - 0x0003 reg=1 this Lcom/deliveroo/battleofimmutables/model/pojo/Order; 
+    #9              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Order;)
+      name          : 'getRestaurant'
+      type          : '()Lcom/deliveroo/battleofimmutables/model/pojo/Restaurant;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 2
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0000 line=94
+      locals        : 
+        0x0000 - 0x0003 reg=1 this Lcom/deliveroo/battleofimmutables/model/pojo/Order; 
+    #10              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Order;)
+      name          : 'getRooCharge'
+      type          : '()D'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 3
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0000 line=70
+      locals        : 
+        0x0000 - 0x0003 reg=2 this Lcom/deliveroo/battleofimmutables/model/pojo/Order; 
+    #11              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Order;)
+      name          : 'getStatus'
+      type          : '()Ljava/lang/String;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 2
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0000 line=50
+      locals        : 
+        0x0000 - 0x0003 reg=1 this Lcom/deliveroo/battleofimmutables/model/pojo/Order; 
+    #12              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Order;)
+      name          : 'getSubmittedAt'
+      type          : '()Ljava/lang/Long;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 2
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0000 line=82
+      locals        : 
+        0x0000 - 0x0003 reg=1 this Lcom/deliveroo/battleofimmutables/model/pojo/Order; 
+    #13              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Order;)
+      name          : 'getTotalCredit'
+      type          : '()D'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 3
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0000 line=66
+      locals        : 
+        0x0000 - 0x0003 reg=2 this Lcom/deliveroo/battleofimmutables/model/pojo/Order; 
+    #14              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Order;)
+      name          : 'getTotalPrice'
+      type          : '()D'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 3
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0000 line=54
+      locals        : 
+        0x0000 - 0x0003 reg=2 this Lcom/deliveroo/battleofimmutables/model/pojo/Order; 
+    #15              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Order;)
+      name          : 'getTotalTip'
+      type          : '()D'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 3
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0000 line=62
+      locals        : 
+        0x0000 - 0x0003 reg=2 this Lcom/deliveroo/battleofimmutables/model/pojo/Order; 
+    #16              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Order;)
+      name          : 'hashCode'
+      type          : '()I'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 14
+      ins           : 1
+      outs          : 2
+      insns size    : 223 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0005 line=142
+        0x000c line=143
+        0x001a line=144
+        0x0020 line=145
+        0x0028 line=146
+        0x0036 line=147
+        0x003c line=148
+        0x0044 line=149
+        0x004a line=150
+        0x0052 line=151
+        0x0058 line=152
+        0x0060 line=153
+        0x006e line=154
+        0x0079 line=158
+        0x007d line=159
+        0x0084 line=160
+        0x0088 line=161
+        0x008e line=163
+        0x009c line=164
+        0x00aa line=165
+        0x00b8 line=166
+        0x00c6 line=167
+        0x00c8 line=143
+        0x00cb line=146
+        0x00ce line=153
+        0x00cf line=159
+        0x00d4 line=161
+        0x00da line=163
+        0x00dc line=164
+        0x00de line=165
+      locals        : 
+        0x0088 - 0x00c7 reg=0 $deliveryAt Ljava/lang/Long; 
+        0x007d - 0x00c7 reg=1 $submittedAt Ljava/lang/Long; 
+        0x0020 - 0x00c7 reg=4 temp J 
+        0x00d4 - 0x00df reg=0 $deliveryAt Ljava/lang/Long; 
+        0x00cf - 0x00df reg=1 $submittedAt Ljava/lang/Long; 
+        0x000c - 0x00df reg=2 result I 
+        0x00ca - 0x00df reg=4 temp J 
+        0x0000 - 0x00df reg=13 this Lcom/deliveroo/battleofimmutables/model/pojo/Order; 
+    #17              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Order;)
+      name          : 'toString'
+      type          : '()Ljava/lang/String;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 6
+      ins           : 1
+      outs          : 3
+      insns size    : 196 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0002 line=171
+        0x0009 line=172
+        0x0014 line=173
+        0x0023 line=174
+        0x002e line=175
+        0x003d line=176
+        0x0048 line=177
+        0x0053 line=178
+        0x005e line=179
+        0x006d line=180
+        0x0078 line=181
+        0x0083 line=182
+        0x008e line=183
+        0x0099 line=184
+        0x00a4 line=185
+        0x00af line=186
+        0x00ba line=187
+        0x00bf line=188
+      locals        : 
+        0x0009 - 0x00c4 reg=0 sb Ljava/lang/StringBuilder; 
+        0x0000 - 0x00c4 reg=5 this Lcom/deliveroo/battleofimmutables/model/pojo/Order; 
+  source_file_idx   : 77 (Order.java)
+
+Class #7            -
+  Class descriptor  : 'Lcom/deliveroo/battleofimmutables/model/pojo/OrderItem$1;'
+  Access flags      : 0x1000 (SYNTHETIC)
+  Superclass        : 'Ljava/lang/Object;'
+  Interfaces        -
+  Static fields     -
+  Instance fields   -
+  Direct methods    -
+  Virtual methods   -
+  source_file_idx   : 78 (OrderItem.java)
+
+Class #8            -
+  Class descriptor  : 'Lcom/deliveroo/battleofimmutables/model/pojo/OrderItem$Builder;'
+  Access flags      : 0x0011 (PUBLIC FINAL)
+  Superclass        : 'Ljava/lang/Object;'
+  Interfaces        -
+  Static fields     -
+  Instance fields   -
+    #0              : (in Lcom/deliveroo/battleofimmutables/model/pojo/OrderItem$Builder;)
+      name          : 'dishName'
+      type          : 'Ljava/lang/String;'
+      access        : 0x0002 (PRIVATE)
+    #1              : (in Lcom/deliveroo/battleofimmutables/model/pojo/OrderItem$Builder;)
+      name          : 'price'
+      type          : 'D'
+      access        : 0x0002 (PRIVATE)
+    #2              : (in Lcom/deliveroo/battleofimmutables/model/pojo/OrderItem$Builder;)
+      name          : 'quantity'
+      type          : 'I'
+      access        : 0x0002 (PRIVATE)
+  Direct methods    -
+    #0              : (in Lcom/deliveroo/battleofimmutables/model/pojo/OrderItem$Builder;)
+      name          : '<init>'
+      type          : '()V'
+      access        : 0x10002 (PRIVATE CONSTRUCTOR)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 1
+      insns size    : 4 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0000 line=79
+        0x0003 line=80
+      locals        : 
+        0x0000 - 0x0004 reg=0 this Lcom/deliveroo/battleofimmutables/model/pojo/OrderItem$Builder; 
+    #1              : (in Lcom/deliveroo/battleofimmutables/model/pojo/OrderItem$Builder;)
+      name          : '<init>'
+      type          : '(Lcom/deliveroo/battleofimmutables/model/pojo/OrderItem$1;)V'
+      access        : 0x11000 (SYNTHETIC CONSTRUCTOR)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 1
+      insns size    : 4 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0000 line=74
+      locals        : 
+        0x0000 - 0x0004 reg=0 this Lcom/deliveroo/battleofimmutables/model/pojo/OrderItem$Builder; 
+        0x0000 - 0x0004 reg=1 x0 Lcom/deliveroo/battleofimmutables/model/pojo/OrderItem$1; 
+    #2              : (in Lcom/deliveroo/battleofimmutables/model/pojo/OrderItem$Builder;)
+      name          : 'access$000'
+      type          : '(Lcom/deliveroo/battleofimmutables/model/pojo/OrderItem$Builder;)Ljava/lang/String;'
+      access        : 0x1008 (STATIC SYNTHETIC)
+      code          -
+      registers     : 2
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0000 line=74
+      locals        : 
+        0x0000 - 0x0003 reg=1 x0 Lcom/deliveroo/battleofimmutables/model/pojo/OrderItem$Builder; 
+    #3              : (in Lcom/deliveroo/battleofimmutables/model/pojo/OrderItem$Builder;)
+      name          : 'access$002'
+      type          : '(Lcom/deliveroo/battleofimmutables/model/pojo/OrderItem$Builder;Ljava/lang/String;)Ljava/lang/String;'
+      access        : 0x1008 (STATIC SYNTHETIC)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 0
+      insns size    : 3 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0000 line=74
+      locals        : 
+        0x0000 - 0x0003 reg=0 x0 Lcom/deliveroo/battleofimmutables/model/pojo/OrderItem$Builder; 
+        0x0000 - 0x0003 reg=1 x1 Ljava/lang/String; 
+    #4              : (in Lcom/deliveroo/battleofimmutables/model/pojo/OrderItem$Builder;)
+      name          : 'access$100'
+      type          : '(Lcom/deliveroo/battleofimmutables/model/pojo/OrderItem$Builder;)I'
+      access        : 0x1008 (STATIC SYNTHETIC)
+      code          -
+      registers     : 2
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0000 line=74
+      locals        : 
+        0x0000 - 0x0003 reg=1 x0 Lcom/deliveroo/battleofimmutables/model/pojo/OrderItem$Builder; 
+    #5              : (in Lcom/deliveroo/battleofimmutables/model/pojo/OrderItem$Builder;)
+      name          : 'access$102'
+      type          : '(Lcom/deliveroo/battleofimmutables/model/pojo/OrderItem$Builder;I)I'
+      access        : 0x1008 (STATIC SYNTHETIC)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 0
+      insns size    : 3 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0000 line=74
+      locals        : 
+        0x0000 - 0x0003 reg=0 x0 Lcom/deliveroo/battleofimmutables/model/pojo/OrderItem$Builder; 
+        0x0000 - 0x0003 reg=1 x1 I 
+    #6              : (in Lcom/deliveroo/battleofimmutables/model/pojo/OrderItem$Builder;)
+      name          : 'access$200'
+      type          : '(Lcom/deliveroo/battleofimmutables/model/pojo/OrderItem$Builder;)D'
+      access        : 0x1008 (STATIC SYNTHETIC)
+      code          -
+      registers     : 3
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0000 line=74
+      locals        : 
+        0x0000 - 0x0003 reg=2 x0 Lcom/deliveroo/battleofimmutables/model/pojo/OrderItem$Builder; 
+    #7              : (in Lcom/deliveroo/battleofimmutables/model/pojo/OrderItem$Builder;)
+      name          : 'access$202'
+      type          : '(Lcom/deliveroo/battleofimmutables/model/pojo/OrderItem$Builder;D)D'
+      access        : 0x1008 (STATIC SYNTHETIC)
+      code          -
+      registers     : 4
+      ins           : 3
+      outs          : 0
+      insns size    : 3 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0000 line=74
+      locals        : 
+        0x0000 - 0x0003 reg=1 x0 Lcom/deliveroo/battleofimmutables/model/pojo/OrderItem$Builder; 
+        0x0000 - 0x0003 reg=2 x1 D 
+  Virtual methods   -
+    #0              : (in Lcom/deliveroo/battleofimmutables/model/pojo/OrderItem$Builder;)
+      name          : 'build'
+      type          : '()Lcom/deliveroo/battleofimmutables/model/pojo/OrderItem;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 3
+      ins           : 1
+      outs          : 3
+      insns size    : 7 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0000 line=98
+      locals        : 
+        0x0000 - 0x0007 reg=2 this Lcom/deliveroo/battleofimmutables/model/pojo/OrderItem$Builder; 
+    #1              : (in Lcom/deliveroo/battleofimmutables/model/pojo/OrderItem$Builder;)
+      name          : 'dishName'
+      type          : '(Ljava/lang/String;)Lcom/deliveroo/battleofimmutables/model/pojo/OrderItem$Builder;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 0
+      insns size    : 3 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0000 line=83
+        0x0002 line=84
+      locals        : 
+        0x0000 - 0x0003 reg=0 this Lcom/deliveroo/battleofimmutables/model/pojo/OrderItem$Builder; 
+        0x0000 - 0x0003 reg=1 val Ljava/lang/String; 
+    #2              : (in Lcom/deliveroo/battleofimmutables/model/pojo/OrderItem$Builder;)
+      name          : 'price'
+      type          : '(D)Lcom/deliveroo/battleofimmutables/model/pojo/OrderItem$Builder;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 4
+      ins           : 3
+      outs          : 0
+      insns size    : 3 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0000 line=93
+        0x0002 line=94
+      locals        : 
+        0x0000 - 0x0003 reg=1 this Lcom/deliveroo/battleofimmutables/model/pojo/OrderItem$Builder; 
+        0x0000 - 0x0003 reg=2 val D 
+    #3              : (in Lcom/deliveroo/battleofimmutables/model/pojo/OrderItem$Builder;)
+      name          : 'quantity'
+      type          : '(I)Lcom/deliveroo/battleofimmutables/model/pojo/OrderItem$Builder;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 0
+      insns size    : 3 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0000 line=88
+        0x0002 line=89
+      locals        : 
+        0x0000 - 0x0003 reg=0 this Lcom/deliveroo/battleofimmutables/model/pojo/OrderItem$Builder; 
+        0x0000 - 0x0003 reg=1 val I 
+  source_file_idx   : 78 (OrderItem.java)
+
+Class #9            -
+  Class descriptor  : 'Lcom/deliveroo/battleofimmutables/model/pojo/OrderItem;'
+  Access flags      : 0x0001 (PUBLIC)
+  Superclass        : 'Ljava/lang/Object;'
+  Interfaces        -
+  Static fields     -
+  Instance fields   -
+    #0              : (in Lcom/deliveroo/battleofimmutables/model/pojo/OrderItem;)
+      name          : 'dishName'
+      type          : 'Ljava/lang/String;'
+      access        : 0x0012 (PRIVATE FINAL)
+    #1              : (in Lcom/deliveroo/battleofimmutables/model/pojo/OrderItem;)
+      name          : 'price'
+      type          : 'D'
+      access        : 0x0012 (PRIVATE FINAL)
+    #2              : (in Lcom/deliveroo/battleofimmutables/model/pojo/OrderItem;)
+      name          : 'quantity'
+      type          : 'I'
+      access        : 0x0012 (PRIVATE FINAL)
+  Direct methods    -
+    #0              : (in Lcom/deliveroo/battleofimmutables/model/pojo/OrderItem;)
+      name          : '<init>'
+      type          : '(Lcom/deliveroo/battleofimmutables/model/pojo/OrderItem$Builder;)V'
+      access        : 0x10002 (PRIVATE CONSTRUCTOR)
+      code          -
+      registers     : 4
+      ins           : 2
+      outs          : 1
+      insns size    : 22 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0000 line=12
+        0x0003 line=13
+        0x0009 line=14
+        0x000f line=15
+        0x0015 line=16
+      locals        : 
+        0x0000 - 0x0016 reg=2 this Lcom/deliveroo/battleofimmutables/model/pojo/OrderItem; 
+        0x0000 - 0x0016 reg=3 builder Lcom/deliveroo/battleofimmutables/model/pojo/OrderItem$Builder; 
+    #1              : (in Lcom/deliveroo/battleofimmutables/model/pojo/OrderItem;)
+      name          : '<init>'
+      type          : '(Lcom/deliveroo/battleofimmutables/model/pojo/OrderItem$Builder;Lcom/deliveroo/battleofimmutables/model/pojo/OrderItem$1;)V'
+      access        : 0x11000 (SYNTHETIC CONSTRUCTOR)
+      code          -
+      registers     : 3
+      ins           : 3
+      outs          : 2
+      insns size    : 4 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0000 line=6
+      locals        : 
+        0x0000 - 0x0004 reg=0 this Lcom/deliveroo/battleofimmutables/model/pojo/OrderItem; 
+        0x0000 - 0x0004 reg=1 x0 Lcom/deliveroo/battleofimmutables/model/pojo/OrderItem$Builder; 
+        0x0000 - 0x0004 reg=2 x1 Lcom/deliveroo/battleofimmutables/model/pojo/OrderItem$1; 
+    #2              : (in Lcom/deliveroo/battleofimmutables/model/pojo/OrderItem;)
+      name          : 'builder'
+      type          : '()Lcom/deliveroo/battleofimmutables/model/pojo/OrderItem$Builder;'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 2
+      ins           : 0
+      outs          : 2
+      insns size    : 7 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0000 line=63
+      locals        : 
+    #3              : (in Lcom/deliveroo/battleofimmutables/model/pojo/OrderItem;)
+      name          : 'builder'
+      type          : '(Lcom/deliveroo/battleofimmutables/model/pojo/OrderItem;)Lcom/deliveroo/battleofimmutables/model/pojo/OrderItem$Builder;'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 5
+      ins           : 1
+      outs          : 3
+      insns size    : 22 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0000 line=67
+        0x0006 line=68
+        0x000b line=69
+        0x0010 line=70
+        0x0015 line=71
+      locals        : 
+        0x0006 - 0x0016 reg=0 builder Lcom/deliveroo/battleofimmutables/model/pojo/OrderItem$Builder; 
+        0x0000 - 0x0016 reg=4 copy Lcom/deliveroo/battleofimmutables/model/pojo/OrderItem; 
+  Virtual methods   -
+    #0              : (in Lcom/deliveroo/battleofimmutables/model/pojo/OrderItem;)
+      name          : 'equals'
+      type          : '(Ljava/lang/Object;)Z'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 10
+      ins           : 2
+      outs          : 4
+      insns size    : 57 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0002 line=32
+        0x0005 line=39
+        0x0006 line=33
+        0x0013 line=35
+        0x0015 line=37
+        0x001b line=38
+        0x0025 line=39
+      locals        : 
+        0x0015 - 0x0039 reg=0 orderItem Lcom/deliveroo/battleofimmutables/model/pojo/OrderItem; 
+        0x0000 - 0x0039 reg=8 this Lcom/deliveroo/battleofimmutables/model/pojo/OrderItem; 
+        0x0000 - 0x0039 reg=9 o Ljava/lang/Object; 
+    #1              : (in Lcom/deliveroo/battleofimmutables/model/pojo/OrderItem;)
+      name          : 'getDishName'
+      type          : '()Ljava/lang/String;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 2
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0000 line=20
+      locals        : 
+        0x0000 - 0x0003 reg=1 this Lcom/deliveroo/battleofimmutables/model/pojo/OrderItem; 
+    #2              : (in Lcom/deliveroo/battleofimmutables/model/pojo/OrderItem;)
+      name          : 'getPrice'
+      type          : '()D'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 3
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0000 line=28
+      locals        : 
+        0x0000 - 0x0003 reg=2 this Lcom/deliveroo/battleofimmutables/model/pojo/OrderItem; 
+    #3              : (in Lcom/deliveroo/battleofimmutables/model/pojo/OrderItem;)
+      name          : 'getQuantity'
+      type          : '()I'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 2
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0000 line=24
+      locals        : 
+        0x0000 - 0x0003 reg=1 this Lcom/deliveroo/battleofimmutables/model/pojo/OrderItem; 
+    #4              : (in Lcom/deliveroo/battleofimmutables/model/pojo/OrderItem;)
+      name          : 'hashCode'
+      type          : '()I'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 7
+      ins           : 1
+      outs          : 2
+      insns size    : 35 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0000 line=46
+        0x000a line=47
+        0x0010 line=48
+        0x0016 line=49
+        0x0020 line=50
+        0x0021 line=46
+      locals        : 
+        0x000a - 0x0021 reg=0 result I 
+        0x0016 - 0x0021 reg=2 temp J 
+        0x0000 - 0x0023 reg=6 this Lcom/deliveroo/battleofimmutables/model/pojo/OrderItem; 
+    #5              : (in Lcom/deliveroo/battleofimmutables/model/pojo/OrderItem;)
+      name          : 'toString'
+      type          : '()Ljava/lang/String;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 5
+      ins           : 1
+      outs          : 3
+      insns size    : 56 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0000 line=54
+        0x0007 line=55
+        0x0018 line=56
+        0x0023 line=57
+        0x002e line=58
+        0x0033 line=59
+      locals        : 
+        0x0007 - 0x0038 reg=0 sb Ljava/lang/StringBuilder; 
+        0x0000 - 0x0038 reg=4 this Lcom/deliveroo/battleofimmutables/model/pojo/OrderItem; 
+  source_file_idx   : 78 (OrderItem.java)
+
+Class #10            -
+  Class descriptor  : 'Lcom/deliveroo/battleofimmutables/model/pojo/Restaurant$1;'
+  Access flags      : 0x1000 (SYNTHETIC)
+  Superclass        : 'Ljava/lang/Object;'
+  Interfaces        -
+  Static fields     -
+  Instance fields   -
+  Direct methods    -
+  Virtual methods   -
+  source_file_idx   : 81 (Restaurant.java)
+
+Class #11            -
+  Class descriptor  : 'Lcom/deliveroo/battleofimmutables/model/pojo/Restaurant$Builder;'
+  Access flags      : 0x0011 (PUBLIC FINAL)
+  Superclass        : 'Ljava/lang/Object;'
+  Interfaces        -
+  Static fields     -
+  Instance fields   -
+    #0              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Restaurant$Builder;)
+      name          : 'latitude'
+      type          : 'D'
+      access        : 0x0002 (PRIVATE)
+    #1              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Restaurant$Builder;)
+      name          : 'longitude'
+      type          : 'D'
+      access        : 0x0002 (PRIVATE)
+    #2              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Restaurant$Builder;)
+      name          : 'name'
+      type          : 'Ljava/lang/String;'
+      access        : 0x0002 (PRIVATE)
+  Direct methods    -
+    #0              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Restaurant$Builder;)
+      name          : '<init>'
+      type          : '()V'
+      access        : 0x10002 (PRIVATE CONSTRUCTOR)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 1
+      insns size    : 4 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0000 line=80
+        0x0003 line=81
+      locals        : 
+        0x0000 - 0x0004 reg=0 this Lcom/deliveroo/battleofimmutables/model/pojo/Restaurant$Builder; 
+    #1              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Restaurant$Builder;)
+      name          : '<init>'
+      type          : '(Lcom/deliveroo/battleofimmutables/model/pojo/Restaurant$1;)V'
+      access        : 0x11000 (SYNTHETIC CONSTRUCTOR)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 1
+      insns size    : 4 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0000 line=75
+      locals        : 
+        0x0000 - 0x0004 reg=0 this Lcom/deliveroo/battleofimmutables/model/pojo/Restaurant$Builder; 
+        0x0000 - 0x0004 reg=1 x0 Lcom/deliveroo/battleofimmutables/model/pojo/Restaurant$1; 
+    #2              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Restaurant$Builder;)
+      name          : 'access$000'
+      type          : '(Lcom/deliveroo/battleofimmutables/model/pojo/Restaurant$Builder;)Ljava/lang/String;'
+      access        : 0x1008 (STATIC SYNTHETIC)
+      code          -
+      registers     : 2
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0000 line=75
+      locals        : 
+        0x0000 - 0x0003 reg=1 x0 Lcom/deliveroo/battleofimmutables/model/pojo/Restaurant$Builder; 
+    #3              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Restaurant$Builder;)
+      name          : 'access$002'
+      type          : '(Lcom/deliveroo/battleofimmutables/model/pojo/Restaurant$Builder;Ljava/lang/String;)Ljava/lang/String;'
+      access        : 0x1008 (STATIC SYNTHETIC)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 0
+      insns size    : 3 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0000 line=75
+      locals        : 
+        0x0000 - 0x0003 reg=0 x0 Lcom/deliveroo/battleofimmutables/model/pojo/Restaurant$Builder; 
+        0x0000 - 0x0003 reg=1 x1 Ljava/lang/String; 
+    #4              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Restaurant$Builder;)
+      name          : 'access$100'
+      type          : '(Lcom/deliveroo/battleofimmutables/model/pojo/Restaurant$Builder;)D'
+      access        : 0x1008 (STATIC SYNTHETIC)
+      code          -
+      registers     : 3
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0000 line=75
+      locals        : 
+        0x0000 - 0x0003 reg=2 x0 Lcom/deliveroo/battleofimmutables/model/pojo/Restaurant$Builder; 
+    #5              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Restaurant$Builder;)
+      name          : 'access$102'
+      type          : '(Lcom/deliveroo/battleofimmutables/model/pojo/Restaurant$Builder;D)D'
+      access        : 0x1008 (STATIC SYNTHETIC)
+      code          -
+      registers     : 4
+      ins           : 3
+      outs          : 0
+      insns size    : 3 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0000 line=75
+      locals        : 
+        0x0000 - 0x0003 reg=1 x0 Lcom/deliveroo/battleofimmutables/model/pojo/Restaurant$Builder; 
+        0x0000 - 0x0003 reg=2 x1 D 
+    #6              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Restaurant$Builder;)
+      name          : 'access$200'
+      type          : '(Lcom/deliveroo/battleofimmutables/model/pojo/Restaurant$Builder;)D'
+      access        : 0x1008 (STATIC SYNTHETIC)
+      code          -
+      registers     : 3
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0000 line=75
+      locals        : 
+        0x0000 - 0x0003 reg=2 x0 Lcom/deliveroo/battleofimmutables/model/pojo/Restaurant$Builder; 
+    #7              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Restaurant$Builder;)
+      name          : 'access$202'
+      type          : '(Lcom/deliveroo/battleofimmutables/model/pojo/Restaurant$Builder;D)D'
+      access        : 0x1008 (STATIC SYNTHETIC)
+      code          -
+      registers     : 4
+      ins           : 3
+      outs          : 0
+      insns size    : 3 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0000 line=75
+      locals        : 
+        0x0000 - 0x0003 reg=1 x0 Lcom/deliveroo/battleofimmutables/model/pojo/Restaurant$Builder; 
+        0x0000 - 0x0003 reg=2 x1 D 
+  Virtual methods   -
+    #0              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Restaurant$Builder;)
+      name          : 'build'
+      type          : '()Lcom/deliveroo/battleofimmutables/model/pojo/Restaurant;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 3
+      ins           : 1
+      outs          : 3
+      insns size    : 7 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0000 line=99
+      locals        : 
+        0x0000 - 0x0007 reg=2 this Lcom/deliveroo/battleofimmutables/model/pojo/Restaurant$Builder; 
+    #1              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Restaurant$Builder;)
+      name          : 'latitude'
+      type          : '(D)Lcom/deliveroo/battleofimmutables/model/pojo/Restaurant$Builder;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 4
+      ins           : 3
+      outs          : 0
+      insns size    : 3 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0000 line=89
+        0x0002 line=90
+      locals        : 
+        0x0000 - 0x0003 reg=1 this Lcom/deliveroo/battleofimmutables/model/pojo/Restaurant$Builder; 
+        0x0000 - 0x0003 reg=2 val D 
+    #2              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Restaurant$Builder;)
+      name          : 'longitude'
+      type          : '(D)Lcom/deliveroo/battleofimmutables/model/pojo/Restaurant$Builder;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 4
+      ins           : 3
+      outs          : 0
+      insns size    : 3 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0000 line=94
+        0x0002 line=95
+      locals        : 
+        0x0000 - 0x0003 reg=1 this Lcom/deliveroo/battleofimmutables/model/pojo/Restaurant$Builder; 
+        0x0000 - 0x0003 reg=2 val D 
+    #3              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Restaurant$Builder;)
+      name          : 'name'
+      type          : '(Ljava/lang/String;)Lcom/deliveroo/battleofimmutables/model/pojo/Restaurant$Builder;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 0
+      insns size    : 3 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0000 line=84
+        0x0002 line=85
+      locals        : 
+        0x0000 - 0x0003 reg=0 this Lcom/deliveroo/battleofimmutables/model/pojo/Restaurant$Builder; 
+        0x0000 - 0x0003 reg=1 val Ljava/lang/String; 
+  source_file_idx   : 81 (Restaurant.java)
+
+Class #12            -
+  Class descriptor  : 'Lcom/deliveroo/battleofimmutables/model/pojo/Restaurant;'
+  Access flags      : 0x0001 (PUBLIC)
+  Superclass        : 'Ljava/lang/Object;'
+  Interfaces        -
+  Static fields     -
+  Instance fields   -
+    #0              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Restaurant;)
+      name          : 'latitude'
+      type          : 'D'
+      access        : 0x0012 (PRIVATE FINAL)
+    #1              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Restaurant;)
+      name          : 'longitude'
+      type          : 'D'
+      access        : 0x0012 (PRIVATE FINAL)
+    #2              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Restaurant;)
+      name          : 'name'
+      type          : 'Ljava/lang/String;'
+      access        : 0x0012 (PRIVATE FINAL)
+  Direct methods    -
+    #0              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Restaurant;)
+      name          : '<init>'
+      type          : '(Lcom/deliveroo/battleofimmutables/model/pojo/Restaurant$Builder;)V'
+      access        : 0x10002 (PRIVATE CONSTRUCTOR)
+      code          -
+      registers     : 4
+      ins           : 2
+      outs          : 1
+      insns size    : 22 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0000 line=12
+        0x0003 line=13
+        0x0009 line=14
+        0x000f line=15
+        0x0015 line=16
+      locals        : 
+        0x0000 - 0x0016 reg=2 this Lcom/deliveroo/battleofimmutables/model/pojo/Restaurant; 
+        0x0000 - 0x0016 reg=3 builder Lcom/deliveroo/battleofimmutables/model/pojo/Restaurant$Builder; 
+    #1              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Restaurant;)
+      name          : '<init>'
+      type          : '(Lcom/deliveroo/battleofimmutables/model/pojo/Restaurant$Builder;Lcom/deliveroo/battleofimmutables/model/pojo/Restaurant$1;)V'
+      access        : 0x11000 (SYNTHETIC CONSTRUCTOR)
+      code          -
+      registers     : 3
+      ins           : 3
+      outs          : 2
+      insns size    : 4 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0000 line=6
+      locals        : 
+        0x0000 - 0x0004 reg=0 this Lcom/deliveroo/battleofimmutables/model/pojo/Restaurant; 
+        0x0000 - 0x0004 reg=1 x0 Lcom/deliveroo/battleofimmutables/model/pojo/Restaurant$Builder; 
+        0x0000 - 0x0004 reg=2 x1 Lcom/deliveroo/battleofimmutables/model/pojo/Restaurant$1; 
+    #2              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Restaurant;)
+      name          : 'builder'
+      type          : '()Lcom/deliveroo/battleofimmutables/model/pojo/Restaurant$Builder;'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 2
+      ins           : 0
+      outs          : 2
+      insns size    : 7 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0000 line=19
+      locals        : 
+    #3              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Restaurant;)
+      name          : 'builder'
+      type          : '(Lcom/deliveroo/battleofimmutables/model/pojo/Restaurant;)Lcom/deliveroo/battleofimmutables/model/pojo/Restaurant$Builder;'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 5
+      ins           : 1
+      outs          : 3
+      insns size    : 22 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0000 line=23
+        0x0006 line=24
+        0x000b line=25
+        0x0010 line=26
+        0x0015 line=27
+      locals        : 
+        0x0006 - 0x0016 reg=0 builder Lcom/deliveroo/battleofimmutables/model/pojo/Restaurant$Builder; 
+        0x0000 - 0x0016 reg=4 copy Lcom/deliveroo/battleofimmutables/model/pojo/Restaurant; 
+  Virtual methods   -
+    #0              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Restaurant;)
+      name          : 'equals'
+      type          : '(Ljava/lang/Object;)Z'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 10
+      ins           : 2
+      outs          : 4
+      insns size    : 61 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0002 line=43
+        0x0005 line=50
+        0x0006 line=44
+        0x0013 line=46
+        0x0015 line=48
+        0x001f line=49
+        0x0029 line=50
+      locals        : 
+        0x0015 - 0x003d reg=0 that Lcom/deliveroo/battleofimmutables/model/pojo/Restaurant; 
+        0x0000 - 0x003d reg=8 this Lcom/deliveroo/battleofimmutables/model/pojo/Restaurant; 
+        0x0000 - 0x003d reg=9 o Ljava/lang/Object; 
+    #1              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Restaurant;)
+      name          : 'getLatitude'
+      type          : '()D'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 3
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0000 line=35
+      locals        : 
+        0x0000 - 0x0003 reg=2 this Lcom/deliveroo/battleofimmutables/model/pojo/Restaurant; 
+    #2              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Restaurant;)
+      name          : 'getLongitude'
+      type          : '()D'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 3
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0000 line=39
+      locals        : 
+        0x0000 - 0x0003 reg=2 this Lcom/deliveroo/battleofimmutables/model/pojo/Restaurant; 
+    #3              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Restaurant;)
+      name          : 'getName'
+      type          : '()Ljava/lang/String;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 2
+      ins           : 1
+      outs          : 0
+      insns size    : 3 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0000 line=31
+      locals        : 
+        0x0000 - 0x0003 reg=1 this Lcom/deliveroo/battleofimmutables/model/pojo/Restaurant; 
+    #4              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Restaurant;)
+      name          : 'hashCode'
+      type          : '()I'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 8
+      ins           : 1
+      outs          : 2
+      insns size    : 43 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0002 line=57
+        0x000c line=58
+        0x0012 line=59
+        0x001a line=60
+        0x0020 line=61
+        0x0028 line=62
+        0x0029 line=57
+      locals        : 
+        0x000c - 0x0029 reg=0 result I 
+        0x0012 - 0x0029 reg=2 temp J 
+        0x0000 - 0x002b reg=7 this Lcom/deliveroo/battleofimmutables/model/pojo/Restaurant; 
+    #5              : (in Lcom/deliveroo/battleofimmutables/model/pojo/Restaurant;)
+      name          : 'toString'
+      type          : '()Ljava/lang/String;'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 5
+      ins           : 1
+      outs          : 3
+      insns size    : 56 16-bit code units
+      catches       : (none)
+      positions     : 
+        0x0000 line=66
+        0x0007 line=67
+        0x0018 line=68
+        0x0023 line=69
+        0x002e line=70
+        0x0033 line=71
+      locals        : 
+        0x0007 - 0x0038 reg=0 sb Ljava/lang/StringBuilder; 
+        0x0000 - 0x0038 reg=4 this Lcom/deliveroo/battleofimmutables/model/pojo/Restaurant; 
+  source_file_idx   : 81 (Restaurant.java)
+
+####################################################################################################
+
+com.deliveroo.battleofimmutables.model.pojo.Card <init>(String, String, int, String)
+com.deliveroo.battleofimmutables.model.pojo.Card getCvc() → int
+com.deliveroo.battleofimmutables.model.pojo.Card getExpiryDate() → String
+com.deliveroo.battleofimmutables.model.pojo.Card getNameOnCard() → String
+com.deliveroo.battleofimmutables.model.pojo.Card getNumber() → String
+com.deliveroo.battleofimmutables.model.pojo.Driver <init>(long, String, String)
+com.deliveroo.battleofimmutables.model.pojo.Driver builder() → Driver$Builder
+com.deliveroo.battleofimmutables.model.pojo.Driver builder(Driver) → Driver$Builder
+com.deliveroo.battleofimmutables.model.pojo.Driver equals(Object) → boolean
+com.deliveroo.battleofimmutables.model.pojo.Driver getContactNumber() → String
+com.deliveroo.battleofimmutables.model.pojo.Driver getId() → long
+com.deliveroo.battleofimmutables.model.pojo.Driver getName() → String
+com.deliveroo.battleofimmutables.model.pojo.Driver hashCode() → int
+com.deliveroo.battleofimmutables.model.pojo.Driver toString() → String
+com.deliveroo.battleofimmutables.model.pojo.Driver$Builder <init>()
+com.deliveroo.battleofimmutables.model.pojo.Driver$Builder <init>(Driver$1)
+com.deliveroo.battleofimmutables.model.pojo.Driver$Builder access$102(Driver$Builder, long) → long
+com.deliveroo.battleofimmutables.model.pojo.Driver$Builder access$202(Driver$Builder, String) → String
+com.deliveroo.battleofimmutables.model.pojo.Driver$Builder access$302(Driver$Builder, String) → String
+com.deliveroo.battleofimmutables.model.pojo.Driver$Builder build() → Driver
+com.deliveroo.battleofimmutables.model.pojo.Driver$Builder contactNumber(String) → Driver$Builder
+com.deliveroo.battleofimmutables.model.pojo.Driver$Builder id(long) → Driver$Builder
+com.deliveroo.battleofimmutables.model.pojo.Driver$Builder name(String) → Driver$Builder
+com.deliveroo.battleofimmutables.model.pojo.Order <init>(Order$Builder)
+com.deliveroo.battleofimmutables.model.pojo.Order <init>(Order$Builder, Order$1)
+com.deliveroo.battleofimmutables.model.pojo.Order builder() → Order$Builder
+com.deliveroo.battleofimmutables.model.pojo.Order builder(Order) → Order$Builder
+com.deliveroo.battleofimmutables.model.pojo.Order equals(Object) → boolean
+com.deliveroo.battleofimmutables.model.pojo.Order getCard() → Card
+com.deliveroo.battleofimmutables.model.pojo.Order getCreatedAt() → long
+com.deliveroo.battleofimmutables.model.pojo.Order getCurrency() → String
+com.deliveroo.battleofimmutables.model.pojo.Order getCustomerName() → String
+com.deliveroo.battleofimmutables.model.pojo.Order getDeliveryAt() → Long
+com.deliveroo.battleofimmutables.model.pojo.Order getDriver() → Driver
+com.deliveroo.battleofimmutables.model.pojo.Order getId() → long
+com.deliveroo.battleofimmutables.model.pojo.Order getItems() → List
+com.deliveroo.battleofimmutables.model.pojo.Order getRestaurant() → Restaurant
+com.deliveroo.battleofimmutables.model.pojo.Order getRooCharge() → double
+com.deliveroo.battleofimmutables.model.pojo.Order getStatus() → String
+com.deliveroo.battleofimmutables.model.pojo.Order getSubmittedAt() → Long
+com.deliveroo.battleofimmutables.model.pojo.Order getTotalCredit() → double
+com.deliveroo.battleofimmutables.model.pojo.Order getTotalPrice() → double
+com.deliveroo.battleofimmutables.model.pojo.Order getTotalTip() → double
+com.deliveroo.battleofimmutables.model.pojo.Order hashCode() → int
+com.deliveroo.battleofimmutables.model.pojo.Order toString() → String
+com.deliveroo.battleofimmutables.model.pojo.Order$Builder <init>()
+com.deliveroo.battleofimmutables.model.pojo.Order$Builder <init>(Order$1)
+com.deliveroo.battleofimmutables.model.pojo.Order$Builder access$000(Order$Builder) → long
+com.deliveroo.battleofimmutables.model.pojo.Order$Builder access$002(Order$Builder, long) → long
+com.deliveroo.battleofimmutables.model.pojo.Order$Builder access$100(Order$Builder) → String
+com.deliveroo.battleofimmutables.model.pojo.Order$Builder access$1000(Order$Builder) → Long
+com.deliveroo.battleofimmutables.model.pojo.Order$Builder access$1002(Order$Builder, Long) → Long
+com.deliveroo.battleofimmutables.model.pojo.Order$Builder access$102(Order$Builder, String) → String
+com.deliveroo.battleofimmutables.model.pojo.Order$Builder access$1100(Order$Builder) → Card
+com.deliveroo.battleofimmutables.model.pojo.Order$Builder access$1102(Order$Builder, Card) → Card
+com.deliveroo.battleofimmutables.model.pojo.Order$Builder access$1200(Order$Builder) → Restaurant
+com.deliveroo.battleofimmutables.model.pojo.Order$Builder access$1202(Order$Builder, Restaurant) → Restaurant
+com.deliveroo.battleofimmutables.model.pojo.Order$Builder access$1300(Order$Builder) → Driver
+com.deliveroo.battleofimmutables.model.pojo.Order$Builder access$1302(Order$Builder, Driver) → Driver
+com.deliveroo.battleofimmutables.model.pojo.Order$Builder access$1400(Order$Builder) → List
+com.deliveroo.battleofimmutables.model.pojo.Order$Builder access$1402(Order$Builder, List) → List
+com.deliveroo.battleofimmutables.model.pojo.Order$Builder access$200(Order$Builder) → double
+com.deliveroo.battleofimmutables.model.pojo.Order$Builder access$202(Order$Builder, double) → double
+com.deliveroo.battleofimmutables.model.pojo.Order$Builder access$300(Order$Builder) → String
+com.deliveroo.battleofimmutables.model.pojo.Order$Builder access$302(Order$Builder, String) → String
+com.deliveroo.battleofimmutables.model.pojo.Order$Builder access$400(Order$Builder) → double
+com.deliveroo.battleofimmutables.model.pojo.Order$Builder access$402(Order$Builder, double) → double
+com.deliveroo.battleofimmutables.model.pojo.Order$Builder access$500(Order$Builder) → double
+com.deliveroo.battleofimmutables.model.pojo.Order$Builder access$502(Order$Builder, double) → double
+com.deliveroo.battleofimmutables.model.pojo.Order$Builder access$600(Order$Builder) → double
+com.deliveroo.battleofimmutables.model.pojo.Order$Builder access$602(Order$Builder, double) → double
+com.deliveroo.battleofimmutables.model.pojo.Order$Builder access$700(Order$Builder) → String
+com.deliveroo.battleofimmutables.model.pojo.Order$Builder access$702(Order$Builder, String) → String
+com.deliveroo.battleofimmutables.model.pojo.Order$Builder access$800(Order$Builder) → long
+com.deliveroo.battleofimmutables.model.pojo.Order$Builder access$802(Order$Builder, long) → long
+com.deliveroo.battleofimmutables.model.pojo.Order$Builder access$900(Order$Builder) → Long
+com.deliveroo.battleofimmutables.model.pojo.Order$Builder access$902(Order$Builder, Long) → Long
+com.deliveroo.battleofimmutables.model.pojo.Order$Builder build() → Order
+com.deliveroo.battleofimmutables.model.pojo.Order$Builder card(Card) → Order$Builder
+com.deliveroo.battleofimmutables.model.pojo.Order$Builder createdAt(long) → Order$Builder
+com.deliveroo.battleofimmutables.model.pojo.Order$Builder currency(String) → Order$Builder
+com.deliveroo.battleofimmutables.model.pojo.Order$Builder customerName(String) → Order$Builder
+com.deliveroo.battleofimmutables.model.pojo.Order$Builder deliveryAt(Long) → Order$Builder
+com.deliveroo.battleofimmutables.model.pojo.Order$Builder driver(Driver) → Order$Builder
+com.deliveroo.battleofimmutables.model.pojo.Order$Builder id(long) → Order$Builder
+com.deliveroo.battleofimmutables.model.pojo.Order$Builder items(List) → Order$Builder
+com.deliveroo.battleofimmutables.model.pojo.Order$Builder restaurant(Restaurant) → Order$Builder
+com.deliveroo.battleofimmutables.model.pojo.Order$Builder rooCharge(double) → Order$Builder
+com.deliveroo.battleofimmutables.model.pojo.Order$Builder status(String) → Order$Builder
+com.deliveroo.battleofimmutables.model.pojo.Order$Builder submittedAt(Long) → Order$Builder
+com.deliveroo.battleofimmutables.model.pojo.Order$Builder totalCredit(double) → Order$Builder
+com.deliveroo.battleofimmutables.model.pojo.Order$Builder totalPrice(double) → Order$Builder
+com.deliveroo.battleofimmutables.model.pojo.Order$Builder totalTip(double) → Order$Builder
+com.deliveroo.battleofimmutables.model.pojo.OrderItem <init>(OrderItem$Builder)
+com.deliveroo.battleofimmutables.model.pojo.OrderItem <init>(OrderItem$Builder, OrderItem$1)
+com.deliveroo.battleofimmutables.model.pojo.OrderItem builder() → OrderItem$Builder
+com.deliveroo.battleofimmutables.model.pojo.OrderItem builder(OrderItem) → OrderItem$Builder
+com.deliveroo.battleofimmutables.model.pojo.OrderItem equals(Object) → boolean
+com.deliveroo.battleofimmutables.model.pojo.OrderItem getDishName() → String
+com.deliveroo.battleofimmutables.model.pojo.OrderItem getPrice() → double
+com.deliveroo.battleofimmutables.model.pojo.OrderItem getQuantity() → int
+com.deliveroo.battleofimmutables.model.pojo.OrderItem hashCode() → int
+com.deliveroo.battleofimmutables.model.pojo.OrderItem toString() → String
+com.deliveroo.battleofimmutables.model.pojo.OrderItem$Builder <init>()
+com.deliveroo.battleofimmutables.model.pojo.OrderItem$Builder <init>(OrderItem$1)
+com.deliveroo.battleofimmutables.model.pojo.OrderItem$Builder access$000(OrderItem$Builder) → String
+com.deliveroo.battleofimmutables.model.pojo.OrderItem$Builder access$002(OrderItem$Builder, String) → String
+com.deliveroo.battleofimmutables.model.pojo.OrderItem$Builder access$100(OrderItem$Builder) → int
+com.deliveroo.battleofimmutables.model.pojo.OrderItem$Builder access$102(OrderItem$Builder, int) → int
+com.deliveroo.battleofimmutables.model.pojo.OrderItem$Builder access$200(OrderItem$Builder) → double
+com.deliveroo.battleofimmutables.model.pojo.OrderItem$Builder access$202(OrderItem$Builder, double) → double
+com.deliveroo.battleofimmutables.model.pojo.OrderItem$Builder build() → OrderItem
+com.deliveroo.battleofimmutables.model.pojo.OrderItem$Builder dishName(String) → OrderItem$Builder
+com.deliveroo.battleofimmutables.model.pojo.OrderItem$Builder price(double) → OrderItem$Builder
+com.deliveroo.battleofimmutables.model.pojo.OrderItem$Builder quantity(int) → OrderItem$Builder
+com.deliveroo.battleofimmutables.model.pojo.Restaurant <init>(Restaurant$Builder)
+com.deliveroo.battleofimmutables.model.pojo.Restaurant <init>(Restaurant$Builder, Restaurant$1)
+com.deliveroo.battleofimmutables.model.pojo.Restaurant builder() → Restaurant$Builder
+com.deliveroo.battleofimmutables.model.pojo.Restaurant builder(Restaurant) → Restaurant$Builder
+com.deliveroo.battleofimmutables.model.pojo.Restaurant equals(Object) → boolean
+com.deliveroo.battleofimmutables.model.pojo.Restaurant getLatitude() → double
+com.deliveroo.battleofimmutables.model.pojo.Restaurant getLongitude() → double
+com.deliveroo.battleofimmutables.model.pojo.Restaurant getName() → String
+com.deliveroo.battleofimmutables.model.pojo.Restaurant hashCode() → int
+com.deliveroo.battleofimmutables.model.pojo.Restaurant toString() → String
+com.deliveroo.battleofimmutables.model.pojo.Restaurant$Builder <init>()
+com.deliveroo.battleofimmutables.model.pojo.Restaurant$Builder <init>(Restaurant$1)
+com.deliveroo.battleofimmutables.model.pojo.Restaurant$Builder access$000(Restaurant$Builder) → String
+com.deliveroo.battleofimmutables.model.pojo.Restaurant$Builder access$002(Restaurant$Builder, String) → String
+com.deliveroo.battleofimmutables.model.pojo.Restaurant$Builder access$100(Restaurant$Builder) → double
+com.deliveroo.battleofimmutables.model.pojo.Restaurant$Builder access$102(Restaurant$Builder, double) → double
+com.deliveroo.battleofimmutables.model.pojo.Restaurant$Builder access$200(Restaurant$Builder) → double
+com.deliveroo.battleofimmutables.model.pojo.Restaurant$Builder access$202(Restaurant$Builder, double) → double
+com.deliveroo.battleofimmutables.model.pojo.Restaurant$Builder build() → Restaurant
+com.deliveroo.battleofimmutables.model.pojo.Restaurant$Builder latitude(double) → Restaurant$Builder
+com.deliveroo.battleofimmutables.model.pojo.Restaurant$Builder longitude(double) → Restaurant$Builder
+com.deliveroo.battleofimmutables.model.pojo.Restaurant$Builder name(String) → Restaurant$Builder
+java.lang.Double compare(double, double) → int
+java.lang.Double doubleToLongBits(double) → long
+java.lang.Object <init>()
+java.lang.Object equals(Object) → boolean
+java.lang.Object getClass() → Class
+java.lang.Object hashCode() → int
+java.lang.String equals(Object) → boolean
+java.lang.String hashCode() → int
+java.lang.StringBuilder <init>(String)
+java.lang.StringBuilder append(char) → StringBuilder
+java.lang.StringBuilder append(double) → StringBuilder
+java.lang.StringBuilder append(int) → StringBuilder
+java.lang.StringBuilder append(Object) → StringBuilder
+java.lang.StringBuilder append(String) → StringBuilder
+java.lang.StringBuilder append(long) → StringBuilder
+java.lang.StringBuilder toString() → String
+java.util.List equals(Object) → boolean
+java.util.List hashCode() → int
+####################################################################################################
+
+Processing output.dex
+Read in 155 method IDs.
+<root>: 155
+    com: 137
+        deliveroo: 137
+            battleofimmutables: 137
+                model: 137
+                    pojo: 137
+    java: 18
+        lang: 16
+        util: 2
+Overall method count: 155
+####################################################################################################
+
